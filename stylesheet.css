@@ -1,0 +1,86 @@
+#banner {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 80px;
+	padding: 30px 70px 30px 70px;
+	margin: 0
+}
+#banner nav ul li{
+	display: inline-block;
+	width: 110px;
+	position: relative;
+	top: 30px;
+	right:10px;
+	margin:0
+} 
+#banner nav ul{
+	margin: 0
+}
+#banner nav ul li a{
+	color: #eeeeee;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bolder;
+	font-family: "Helvetica neue", sans-serif
+}
+#banner nav{
+	float: right;
+}
+#banner h1{
+	float: left;
+	margin: 0
+}
+#pizzas h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-family:"Helvetica neue", sans-serif;
+	font-size:22px;
+	color: gold;
+	margin:0;
+	line-height: 5;
+	text-shadow: 3px 3px 10px black
+}
+main{
+	padding-bottom: 60px;
+	padding-top: 80px;
+}
+footer{
+	margin:0;
+	text-align: center;
+	padding-bottom: 20px;
+	color: white;
+}
+#pizzas table{
+	text-align: center;
+	width: 80%;
+	margin:0 auto 0 auto;
+	border-collapse: collapse;
+	background-color: rgba(0,0,0,0.5);
+}
+#pizzas table td,
+#pizzas table th
+{
+	border: 1px #000 solid;
+	text-align: center;
+	color: gold;
+	text-transform: uppercase;
+	font-family: "Helvetica neue", sans-serif;
+	font-size: 15px;
+	padding: 20px;
+	font-weight: bolder;
+	text-shadow: 2px 2px 8px black;
+}
+#pizzas .texto-negativo{
+	color: red
+}
+#pizzas .texto-positivo{
+	color: green
+}
+body{
+	margin: 0;
+	background-image: url("img/background-pizza.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
